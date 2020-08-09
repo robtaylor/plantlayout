@@ -7,11 +7,10 @@ def layout(csvwriter, items):
     knuth_shuffle(items)
 
     for i in range(5):
-        print("\n")
         row = [""]
         for j in range(5):
-            print(items[i*5+j], end=" ")
-            row += items[i*5+j]
+            row.append(items[i*5+j])
+        print(row)
         csvwriter.writerow(row)
 
 
@@ -37,7 +36,11 @@ with open('plantlist.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     line_count = 0
     for row in csv_reader:
-        items += row[0]
+        name=row[0] + " " + row[1]
+        print(name)
+        items.append(name)
+
+print(items)
 
 with open('layouts.csv', mode="w") as layouts:
     writer = csv.writer(layouts, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
