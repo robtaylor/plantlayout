@@ -35,6 +35,7 @@ def load_plantlist(filename):
     items = []
     with open(filename) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=';')
+        next(csv_reader) #skip headings
         for row in csv_reader:
             name=row[0] + " " + row[1]
             items.append(name)
