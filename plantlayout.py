@@ -34,7 +34,7 @@ def knuth_shuffle(items):
 def load_plantlist(filename):
     items = []
     with open(filename) as csv_file:
-        csv_reader = csv.reader(csv_file, delimiter=',')
+        csv_reader = csv.reader(csv_file, delimiter=';')
         for row in csv_reader:
             name=row[0] + " " + row[1]
             items.append(name)
@@ -49,11 +49,10 @@ def load_bag_list(filename):
     return items
 
 
-def output_one_layout(n, plants):
-    with open('layouts.csv', mode="w") as layouts:
-        writer = csv.writer(layouts, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        writer.writerow(["layout number", n])
-        layout(writer,plants)
+def output_one_layout(csvfile, bag, plants):
+    writer = csv.writer(layouts, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    writer.writerow(["bag number", bag])
+    layout(writer,plants)
 
 def list_experiments():
     exps = []
@@ -99,4 +98,14 @@ with open('experiments.csv', 'w') as csvfile:
         for data in bags:
             writer.writerow(data)
 
+# Load our plant lists for the two sets 
+set_1_plants = load_plantlist('plantlist1.csv')
+set_2_plants = load_plantlist('plantlist2.csv')
+
+
+# Output layouts for each bag
+with open('layouts.csv', mode="w+") as layouts:
+    for bag in bags:
+        plants = set_1_plants if bag['set'] == 1 else set_2_plants
+        output_one_layout(layouts, bag['number'], plants)
 
