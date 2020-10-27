@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 
 import csv
+import pprint
 from random import randrange
+pp=pprint.PrettyPrinter(indent=4)
 
 def layout(csvwriter, items):
     knuth_shuffle(items)
@@ -10,7 +12,6 @@ def layout(csvwriter, items):
         row = [""]
         for j in range(5):
             row.append(items[i*5+j])
-        print(row)
         csvwriter.writerow(row)
 
 
@@ -29,26 +30,73 @@ def knuth_shuffle(items):
 
 
 
-items = []
+
+def load_plantlist(filename):
+    items = []
+    with open(filename) as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=',')
+        for row in csv_reader:
+            name=row[0] + " " + row[1]
+            items.append(name)
+    return items
+
+def load_bag_list(filename):
+    items = []
+    with open(filename) as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=',')
+        for row in csv_reader:
+           items.append({'number':int(row[0]), 'depth':row[1]})
+    return items
 
 
-with open('plantlist.csv') as csv_file:
-    csv_reader = csv.reader(csv_file, delimiter=',')
-    line_count = 0
-    for row in csv_reader:
-        name=row[0] + " " + row[1]
-        print(name)
-        items.append(name)
-
-print(items)
-
-with open('layouts.csv', mode="w") as layouts:
-    writer = csv.writer(layouts, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-    for n in range(12):
-        print("layout number {}".format(n))
+def output_one_layout(n, plants):
+    with open('layouts.csv', mode="w") as layouts:
+        writer = csv.writer(layouts, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         writer.writerow(["layout number", n])
-        layout(writer,items)
-        writer.writerow([])
-        print()
+        layout(writer,plants)
+
+def list_experiments():
+    exps = []
+    for n in range(12):
+        set = 1 if n < 6 else  2
+        water = True if (n % 6  < 3) else False
+        exps.append({'set':set, 'water':water})
+    return exps
+
+
+
+# list of bags as on ground, and depth
+bags =  load_bag_list('bags.csv')
+print("Bag list:")
+pp.pprint(bags)
+
+# Create a list of all the different experiment combinations for 200 depth
+experiments_200 = list_experiments()
+experiments_400 = list_experiments()
+
+print('200 depth experiments:')
+pp.pprint(experiments_200)
+print('400 depth experiments:')
+pp.pprint(experiments_400)
+
+#randomise them
+knuth_shuffle(experiments_200)
+knuth_shuffle(experiments_400)
+
+# assign expeiments to bags
+
+for bag in bags:
+    if bag['depth'] == '200':
+        bag.update(experiments_200.pop())
+    if bag['depth'] == '400':
+        bag.update(experiments_400.pop())
+
+# save as csv
+csv_columns = ['number','depth','set','water']
+with open('experiments.csv', 'w') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=csv_columns)
+        writer.writeheader()
+        for data in bags:
+            writer.writerow(data)
 
 
