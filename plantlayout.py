@@ -4,18 +4,31 @@ import csv
 import pprint
 from random import randrange
 from operator import itemgetter
-  
+
 pp=pprint.PrettyPrinter(indent=4)
 
 def layout(csvwriter, items):
     knuth_shuffle(items)
 
-    for i in range(5):
+    odd_row = True
+    odd_column = True 
+    index = 0
+    for i in range(7):
         row = [""]
-        for j in range(5):
-            row.append(items[i*5+j])
+        for j in range(7):
+            if i==3 and j==3:
+                row.append("")
+            elif odd_row and odd_column:
+                row.append(items[index])
+                index = index + 1 
+            elif not odd_row and odd_column:
+               	row.append(items[index])
+                index = index + 1 
+            else:
+                row.append("")
+            odd_column = not odd_column
         csvwriter.writerow(row)
-
+        odd_row = not odd_row
 
 def knuth_shuffle(items):
     """
@@ -59,6 +72,7 @@ def output_one_layout(csvfile, bag, plants):
         title += f' {k}: {bag[k]}'
     writer.writerow([title])
     layout(writer,plants)
+    writer.writerow([])
 
 def list_experiments():
     exps = []
