@@ -1,0 +1,216 @@
+bag number: 1 depth: 200 set: 2 water: False,,,,,,,
+,18 Allium 3,,10. Lim. Bel,,15. S. lachyn,,24 Gr5 St. cap
+,,8. Dr. per,,3. Bupl,,19. T. serphy,
+,2. Allium 2,,22 Gr2 K,,12. Salvia,,11. Puls
+,,6. Ceph,,,,16. S. Moondance,
+,9. Euph,,20 T. preac,,17. Scut,,13. S.des
+,,4. Camp. ,,1. Al. sen,,23 Gr 4 St. b,
+,21 Gr1 F,,5. Ps. pulch,,7. Eph,,14. S. cauc
+,,,,,,,
+bag number: 2 depth: 400 set: 2 water: True,,,,,,,
+,20 T. preac,,2. Allium 2,,1. Al. sen,,7. Eph
+,,16. S. Moondance,,18 Allium 3,,10. Lim. Bel,
+,14. S. cauc,,21 Gr1 F,,22 Gr2 K,,13. S.des
+,,23 Gr 4 St. b,,,,9. Euph,
+,8. Dr. per,,24 Gr5 St. cap,,19. T. serphy,,15. S. lachyn
+,,4. Camp. ,,6. Ceph,,17. Scut,
+,12. Salvia,,11. Puls,,5. Ps. pulch,,3. Bupl
+,,,,,,,
+bag number: 3 depth: 200 set: 1 water: True,,,,,,,
+,11 Phl,,22 Gr4 Fes,,9 Lim latif,,3 Ceph. R
+,,14 S.nut,,10 Pot,,1 C. daur,
+,2 C.scabiosa,,17 S.col,,12 S. trans,,13 S.tesq
+,,7 Euph s,,,,18 Verb,
+,5 E.ritro,,23 Frag,,4 D.carth,,16 S.och
+,,20 Puls,,24 Gr St,,15 Sang,
+,19 Gr1 Kel,,8 Astr,,21 Gr 3 Ses,,6 Echi r
+,,,,,,,
+bag number: 4 depth: 200 set: 2 water: False,,,,,,,
+,21 Gr1 F,,12. Salvia,,7. Eph,,3. Bupl
+,,14. S. cauc,,2. Allium 2,,5. Ps. pulch,
+,22 Gr2 K,,16. S. Moondance,,10. Lim. Bel,,9. Euph
+,,17. Scut,,,,19. T. serphy,
+,18 Allium 3,,6. Ceph,,11. Puls,,1. Al. sen
+,,23 Gr 4 St. b,,13. S.des,,4. Camp. ,
+,24 Gr5 St. cap,,8. Dr. per,,20 T. preac,,15. S. lachyn
+,,,,,,,
+bag number: 5 depth: 200 set: 1 water: False,,,,,,,
+,5 E.ritro,,19 Gr1 Kel,,23 Frag,,14 S.nut
+,,8 Astr,,7 Euph s,,1 C. daur,
+,22 Gr4 Fes,,3 Ceph. R,,20 Puls,,21 Gr 3 Ses
+,,12 S. trans,,,,2 C.scabiosa,
+,17 S.col,,15 Sang,,11 Phl,,16 S.och
+,,18 Verb,,9 Lim latif,,24 Gr St,
+,4 D.carth,,13 S.tesq,,6 Echi r,,10 Pot
+,,,,,,,
+bag number: 6 depth: 400 set: 1 water: True,,,,,,,
+,13 S.tesq,,16 S.och,,9 Lim latif,,17 S.col
+,,6 Echi r,,15 Sang,,8 Astr,
+,18 Verb,,5 E.ritro,,21 Gr 3 Ses,,23 Frag
+,,7 Euph s,,,,1 C. daur,
+,11 Phl,,10 Pot,,2 C.scabiosa,,22 Gr4 Fes
+,,19 Gr1 Kel,,4 D.carth,,20 Puls,
+,24 Gr St,,12 S. trans,,3 Ceph. R,,14 S.nut
+,,,,,,,
+bag number: 7 depth: 200 set: 1 water: True,,,,,,,
+,22 Gr4 Fes,,23 Frag,,2 C.scabiosa,,8 Astr
+,,20 Puls,,19 Gr1 Kel,,4 D.carth,
+,3 Ceph. R,,14 S.nut,,15 Sang,,10 Pot
+,,9 Lim latif,,,,16 S.och,
+,18 Verb,,17 S.col,,11 Phl,,7 Euph s
+,,1 C. daur,,24 Gr St,,13 S.tesq,
+,21 Gr 3 Ses,,12 S. trans,,6 Echi r,,5 E.ritro
+,,,,,,,
+bag number: 8 depth: 400 set: 1 water: True,,,,,,,
+,19 Gr1 Kel,,12 S. trans,,13 S.tesq,,14 S.nut
+,,18 Verb,,5 E.ritro,,1 C. daur,
+,10 Pot,,23 Frag,,22 Gr4 Fes,,20 Puls
+,,2 C.scabiosa,,,,6 Echi r,
+,4 D.carth,,8 Astr,,11 Phl,,21 Gr 3 Ses
+,,24 Gr St,,16 S.och,,9 Lim latif,
+,15 Sang,,3 Ceph. R,,7 Euph s,,17 S.col
+,,,,,,,
+bag number: 9 depth: 400 set: 1 water: False,,,,,,,
+,11 Phl,,7 Euph s,,22 Gr4 Fes,,10 Pot
+,,17 S.col,,16 S.och,,1 C. daur,
+,13 S.tesq,,18 Verb,,4 D.carth,,9 Lim latif
+,,3 Ceph. R,,,,21 Gr 3 Ses,
+,5 E.ritro,,14 S.nut,,6 Echi r,,12 S. trans
+,,15 Sang,,23 Frag,,19 Gr1 Kel,
+,8 Astr,,20 Puls,,2 C.scabiosa,,24 Gr St
+,,,,,,,
+bag number: 10 depth: 200 set: 2 water: True,,,,,,,
+,21 Gr1 F,,9. Euph,,17. Scut,,4. Camp. 
+,,16. S. Moondance,,3. Bupl,,22 Gr2 K,
+,23 Gr 4 St. b,,7. Eph,,6. Ceph,,24 Gr5 St. cap
+,,10. Lim. Bel,,,,8. Dr. per,
+,1. Al. sen,,18 Allium 3,,12. Salvia,,19. T. serphy
+,,2. Allium 2,,13. S.des,,15. S. lachyn,
+,20 T. preac,,5. Ps. pulch,,11. Puls,,14. S. cauc
+,,,,,,,
+bag number: 11 depth: 400 set: 1 water: False,,,,,,,
+,15 Sang,,13 S.tesq,,2 C.scabiosa,,20 Puls
+,,8 Astr,,12 S. trans,,7 Euph s,
+,19 Gr1 Kel,,18 Verb,,23 Frag,,14 S.nut
+,,22 Gr4 Fes,,,,1 C. daur,
+,16 S.och,,5 E.ritro,,21 Gr 3 Ses,,17 S.col
+,,3 Ceph. R,,24 Gr St,,9 Lim latif,
+,4 D.carth,,10 Pot,,6 Echi r,,11 Phl
+,,,,,,,
+bag number: 12 depth: 400 set: 2 water: True,,,,,,,
+,2. Allium 2,,18 Allium 3,,15. S. lachyn,,21 Gr1 F
+,,3. Bupl,,17. Scut,,8. Dr. per,
+,10. Lim. Bel,,11. Puls,,23 Gr 4 St. b,,1. Al. sen
+,,14. S. cauc,,,,20 T. preac,
+,22 Gr2 K,,13. S.des,,9. Euph,,19. T. serphy
+,,5. Ps. pulch,,16. S. Moondance,,7. Eph,
+,12. Salvia,,6. Ceph,,24 Gr5 St. cap,,4. Camp. 
+,,,,,,,
+bag number: 13 depth: 200 set: 1 water: False,,,,,,,
+,13 S.tesq,,12 S. trans,,15 Sang,,2 C.scabiosa
+,,6 Echi r,,9 Lim latif,,14 S.nut,
+,21 Gr 3 Ses,,5 E.ritro,,16 S.och,,19 Gr1 Kel
+,,17 S.col,,,,8 Astr,
+,11 Phl,,3 Ceph. R,,10 Pot,,4 D.carth
+,,18 Verb,,20 Puls,,7 Euph s,
+,1 C. daur,,22 Gr4 Fes,,23 Frag,,24 Gr St
+,,,,,,,
+bag number: 14 depth: 400 set: 2 water: False,,,,,,,
+,24 Gr5 St. cap,,7. Eph,,18 Allium 3,,1. Al. sen
+,,23 Gr 4 St. b,,8. Dr. per,,22 Gr2 K,
+,21 Gr1 F,,16. S. Moondance,,9. Euph,,3. Bupl
+,,19. T. serphy,,,,17. Scut,
+,13. S.des,,12. Salvia,,11. Puls,,6. Ceph
+,,14. S. cauc,,20 T. preac,,2. Allium 2,
+,5. Ps. pulch,,4. Camp. ,,15. S. lachyn,,10. Lim. Bel
+,,,,,,,
+bag number: 15 depth: 400 set: 2 water: False,,,,,,,
+,21 Gr1 F,,3. Bupl,,8. Dr. per,,10. Lim. Bel
+,,14. S. cauc,,4. Camp. ,,23 Gr 4 St. b,
+,5. Ps. pulch,,24 Gr5 St. cap,,16. S. Moondance,,9. Euph
+,,6. Ceph,,,,19. T. serphy,
+,22 Gr2 K,,15. S. lachyn,,11. Puls,,1. Al. sen
+,,2. Allium 2,,17. Scut,,7. Eph,
+,20 T. preac,,13. S.des,,12. Salvia,,18 Allium 3
+,,,,,,,
+bag number: 16 depth: 200 set: 1 water: True,,,,,,,
+,11 Phl,,4 D.carth,,1 C. daur,,14 S.nut
+,,24 Gr St,,12 S. trans,,17 S.col,
+,7 Euph s,,6 Echi r,,19 Gr1 Kel,,20 Puls
+,,23 Frag,,,,15 Sang,
+,18 Verb,,8 Astr,,21 Gr 3 Ses,,10 Pot
+,,9 Lim latif,,16 S.och,,13 S.tesq,
+,2 C.scabiosa,,5 E.ritro,,22 Gr4 Fes,,3 Ceph. R
+,,,,,,,
+bag number: 17 depth: 400 set: 1 water: False,,,,,,,
+,15 Sang,,17 S.col,,14 S.nut,,3 Ceph. R
+,,22 Gr4 Fes,,6 Echi r,,1 C. daur,
+,24 Gr St,,5 E.ritro,,16 S.och,,9 Lim latif
+,,21 Gr 3 Ses,,,,8 Astr,
+,13 S.tesq,,20 Puls,,23 Frag,,18 Verb
+,,10 Pot,,11 Phl,,4 D.carth,
+,7 Euph s,,19 Gr1 Kel,,12 S. trans,,2 C.scabiosa
+,,,,,,,
+bag number: 18 depth: 400 set: 2 water: False,,,,,,,
+,13. S.des,,18 Allium 3,,2. Allium 2,,17. Scut
+,,7. Eph,,24 Gr5 St. cap,,14. S. cauc,
+,16. S. Moondance,,19. T. serphy,,12. Salvia,,21 Gr1 F
+,,10. Lim. Bel,,,,4. Camp. ,
+,9. Euph,,1. Al. sen,,3. Bupl,,22 Gr2 K
+,,15. S. lachyn,,8. Dr. per,,6. Ceph,
+,23 Gr 4 St. b,,11. Puls,,20 T. preac,,5. Ps. pulch
+,,,,,,,
+bag number: 19 depth: 200 set: 1 water: False,,,,,,,
+,3 Ceph. R,,5 E.ritro,,18 Verb,,22 Gr4 Fes
+,,11 Phl,,12 S. trans,,8 Astr,
+,21 Gr 3 Ses,,15 Sang,,17 S.col,,23 Frag
+,,7 Euph s,,,,9 Lim latif,
+,20 Puls,,2 C.scabiosa,,10 Pot,,6 Echi r
+,,24 Gr St,,14 S.nut,,1 C. daur,
+,13 S.tesq,,4 D.carth,,19 Gr1 Kel,,16 S.och
+,,,,,,,
+bag number: 20 depth: 200 set: 2 water: True,,,,,,,
+,12. Salvia,,7. Eph,,15. S. lachyn,,4. Camp. 
+,,14. S. cauc,,3. Bupl,,2. Allium 2,
+,8. Dr. per,,13. S.des,,16. S. Moondance,,1. Al. sen
+,,10. Lim. Bel,,,,21 Gr1 F,
+,6. Ceph,,22 Gr2 K,,5. Ps. pulch,,9. Euph
+,,23 Gr 4 St. b,,18 Allium 3,,11. Puls,
+,20 T. preac,,19. T. serphy,,17. Scut,,24 Gr5 St. cap
+,,,,,,,
+bag number: 21 depth: 400 set: 2 water: True,,,,,,,
+,15. S. lachyn,,6. Ceph,,8. Dr. per,,2. Allium 2
+,,5. Ps. pulch,,22 Gr2 K,,23 Gr 4 St. b,
+,14. S. cauc,,13. S.des,,10. Lim. Bel,,4. Camp. 
+,,16. S. Moondance,,,,9. Euph,
+,7. Eph,,24 Gr5 St. cap,,11. Puls,,1. Al. sen
+,,21 Gr1 F,,20 T. preac,,18 Allium 3,
+,12. Salvia,,3. Bupl,,19. T. serphy,,17. Scut
+,,,,,,,
+bag number: 22 depth: 200 set: 2 water: True,,,,,,,
+,11. Puls,,14. S. cauc,,13. S.des,,5. Ps. pulch
+,,20 T. preac,,3. Bupl,,23 Gr 4 St. b,
+,6. Ceph,,8. Dr. per,,12. Salvia,,21 Gr1 F
+,,22 Gr2 K,,,,19. T. serphy,
+,18 Allium 3,,7. Eph,,15. S. lachyn,,16. S. Moondance
+,,4. Camp. ,,17. Scut,,10. Lim. Bel,
+,9. Euph,,24 Gr5 St. cap,,1. Al. sen,,2. Allium 2
+,,,,,,,
+bag number: 23 depth: 400 set: 1 water: True,,,,,,,
+,17 S.col,,19 Gr1 Kel,,2 C.scabiosa,,7 Euph s
+,,13 S.tesq,,21 Gr 3 Ses,,10 Pot,
+,1 C. daur,,4 D.carth,,22 Gr4 Fes,,20 Puls
+,,8 Astr,,,,15 Sang,
+,3 Ceph. R,,12 S. trans,,5 E.ritro,,24 Gr St
+,,18 Verb,,6 Echi r,,11 Phl,
+,14 S.nut,,9 Lim latif,,23 Frag,,16 S.och
+,,,,,,,
+bag number: 24 depth: 200 set: 2 water: False,,,,,,,
+,24 Gr5 St. cap,,11. Puls,,16. S. Moondance,,13. S.des
+,,17. Scut,,21 Gr1 F,,5. Ps. pulch,
+,23 Gr 4 St. b,,10. Lim. Bel,,3. Bupl,,12. Salvia
+,,19. T. serphy,,,,9. Euph,
+,2. Allium 2,,22 Gr2 K,,7. Eph,,15. S. lachyn
+,,8. Dr. per,,6. Ceph,,18 Allium 3,
+,1. Al. sen,,14. S. cauc,,20 T. preac,,4. Camp. 
+,,,,,,,
